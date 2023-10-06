@@ -1,0 +1,1202 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+@font-face {
+    font-family: Aeonik-pro-light;
+    src: url('/assets/fonts/aeonikprotrial-light.otf');
+}
+
+@font-face {
+    font-family: Aeonik-pro-regular;
+    src: url('/assets/fonts/aeonikprotrial-regular.otf');
+}
+
+@font-face {
+    font-family: Aeonik-pro-bold;
+    src: url('/assets/fonts/aeonikprotrial-bold.otf');
+}
+
+.wrapper{
+    /* max-width: 1750px; */
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////// Desktop Navigation //////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* ///////////////////////////////////////////// Desktop Navigation Logo //////////////////////////////////// */
+
+.navigation{
+    z-index: 20;
+}
+
+
+.desktop-navigation.desktop{
+    background-color: rgba(0, 45, 255, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.desktop-nav-container.wrapper{
+    height: 120px;
+    width: 91.5%;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.voyance-logo img{
+    width: 100%;
+}
+
+.voyance-logo{
+    width: 11%;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+/* ///////////////////////////////////////////// Desktop Main Navigation //////////////////////////////////// */
+
+.main-nav{
+    width: 35.8%;
+    margin-left: auto;
+    margin-right: 48px;
+}
+
+.main-nav ul{
+    margin: 0;
+    /* padding: 0; */
+}
+
+.main-nav ul li{
+    list-style: none;
+    color: white;
+    font-family: Aeonik-pro-bold;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.main-nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.main-nav ul li.special a{
+    margin-right: 5px;
+}
+
+
+
+/* ///////////////////////////////////////////// Desktop Navigation Login/Signup //////////////////////////////////// */
+
+.login-signup{
+    transition: all 0.3s ease-in-out;
+    width: 24%;
+}
+
+a.btn{
+    padding: 12px 36px;
+    border: 1px solid rgba(255, 255, 255, 0.75);
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: Aeonik-pro-regular;
+    font-weight: 200;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+a.btn:hover{
+    color: white !important;
+    border: 1px solid rgba(255, 255, 255, 0.75) !important;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+a.btn:active{
+    color: white !important;
+    border: 1px solid rgba(255, 255, 255, 0.75) !important;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+a.blueBtn{
+    background: rgba(19, 67, 199, 1) !important;
+    border: 0.5px solid rgba(19, 67, 199, 1) !important;
+    transition: all 0.2s ease-in-out;
+    color: white !important;
+    margin-left: 10px;
+}
+
+a.blueBtn:hover{
+    background: rgb(45, 86, 197) !important;
+    border: 0.5px solid rgba(45, 86, 197, 1) !important;
+    color: white !important;
+}
+
+a.blueBtn:active{
+    background: rgb(45, 86, 197) !important;
+    border: 0.5px solid rgba(45, 86, 197, 1) !important;
+    color: white !important;
+}
+
+/* ///////////////////////////////////////////// for active navigation //////////////////////////////////// */
+
+
+.navigation.active .desktop-navigation.desktop{
+    background-color: rgb(23, 39, 145);
+}
+
+.navigation.active .desktop-nav-container.wrapper{
+    height: 100px;
+}
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////// mobile Navigation //////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.hamburger-menu{
+    display: none;
+}
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////// hero Section //////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.hero-section{
+    background: url("/assets/imgs/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-section-content.wrapper{
+    padding-bottom: 140px;
+    padding-top: 120px;
+}
+
+
+/* ///////////////////////////////////////////// hero section right side //////////////////////////////////// */
+
+
+
+.hero-section-right {
+    width: 50%;
+    height: 750px;
+}
+
+
+.hero-section-right img{
+    mix-blend-mode: screen;
+}
+
+.scifi-planet-up{
+    right: -10px;
+    width: 40%;
+}
+
+.scifi-planet-up img{
+    width: 120%;
+}
+
+.scifi-img{
+    width: 94%;
+    left: -135px;
+    top: -6px;
+}
+
+.scifi-img img{
+    width: 130%;
+    object-fit: cover;
+}
+
+
+
+/* ///////////////////////////////////////////// hero section left side //////////////////////////////////// */
+
+
+
+.hero-section-left{
+    width: 50%;
+    margin-top: 20px;
+}
+
+.hero-section-heading h2{
+    font-size: 66px;
+    font-family: Aeonik-pro-bold;
+    line-height: 100px;
+    text-transform: capitalize;
+    color: white;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.hero-section-heading h2 span{
+    color: #00A3FF;
+}
+
+.hero-section-heading .hero-heading-img{
+    top: 38%;
+}
+
+.hero-section-heading .hero-heading-img img{
+    width: 110%;
+}
+
+
+.hero-section-left p{
+    color: white;
+    font-size: 23px;
+    width: 90%;
+    margin-bottom: 90px;
+    text-transform: capitalize;
+    font-family: Aeonik-pro-regular;
+}
+
+
+/* ///////////////////////////////////////////// hero section bottom //////////////////////////////////// */
+
+.hero-section-bottom{
+    width: 80%;
+    margin-top: 56px;
+}
+
+
+.hero-section-bottom .trusted-by div{
+    width: 30.5%;
+    border: 0.5px solid #AFAFAF;
+    background-color: #AFAFAF;
+    /* height: 50px; */
+}
+
+.hero-section-bottom .trusted-by p{
+    color: white;
+    font-family: Aeonik-pro-bold;
+    font-size: 23px;
+    text-transform: capitalize;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.trusted-by-companies{
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    margin-top: 30px;
+
+}
+
+
+.trusted-by-companies .companies{
+    width: 70%;
+    padding: 20px;
+}
+
+.trusted-by-companies .companies img{
+    width: 100%;
+}
+
+.companies .company{
+    width: 15%;
+}
+
+.companies .company img{
+    width: 100%;
+}
+
+.companies .company:nth-child(1){
+    width: 8.5%;
+}
+
+.companies .company:nth-child(4){
+    width: 13.5%;
+}
+
+.hero-section-bottom .scifi-down{
+    top: 18px;
+    left: -296px;
+}
+
+
+.hero-section-bottom .scifi-down img{
+    mix-blend-mode: screen;
+    width: 100%;
+}
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////// Data transfiguration Section //////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* ///////////////////////////////////////////// Data transfuration section //////////////////////////////////// */
+
+.data-transform{
+    background: #0229B2;
+    /* position: relative; */
+    color: white;
+}
+
+.data-transform::before{
+    content: "";
+    background: url('/assets/imgs/data-transfig-bg.png');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.20;
+}
+
+
+
+/* ///////////////////////////////////////////// Data transfuration left side //////////////////////////////////// */
+
+.data-transform-left{
+    width: 54%;
+    background: url('/assets/imgs/data-transfif-left.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:-50px 0%;
+    /* background-position: center; */
+}
+
+.data-transform-video{
+    width: 76%;
+    top: 65px;
+    margin-right: 150px;
+    box-shadow: 0px 4px 24px 9px rgba(0, 0, 0, 0.24);
+    border-radius: 12px;
+    
+}
+
+
+
+.data-transform-video .video img{
+    border-radius: 12px;
+    width: 100%;
+}
+
+.video-play-btn{
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(13, 13, 13, 0.12);
+    border-radius: 12px;
+}
+
+.video-play-btn i{
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #1343C7;
+    font-size: 120px;
+    transition: all 0.2s ease-in-out;
+}
+
+.video-play-btn i:hover{
+    color: #3259c6;
+}
+
+
+/* ///////////////////////////////////////////// Data transfuration right side //////////////////////////////////// */
+
+
+.data-transform-right{
+    width: 46%;
+}
+
+
+.data-transform-right h3{
+    font-size: 60px;
+    font-family: Aeonik-pro-bold;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.data-transform-right p{
+    width: 75%;
+    font-size: 24px;
+    font-family: Aeonik-pro-regular;
+}
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////// Automate Data Section //////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.automate-data{
+    background: url('/assets/imgs/automate-data-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.automate-data-wrapper{
+    width: 73.4%;
+    padding-top: 320px;
+    padding-bottom: 150px;
+}
+
+/* ///////////////////////////////////////////// automate Data Section content //////////////////////////////////// */
+
+.automate-data-content{
+    border-radius: 110px;
+    box-shadow: 0px 3px 49px 9px rgba(0, 0, 0, 0.25)
+}
+
+
+.automate-data-content::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #00A3FF;
+    opacity: 0.57;
+    height: 100%;
+    width: 100%;
+    border-radius: 110px;
+}
+
+
+/* ///////////////////////////////////////////// automate Data left side //////////////////////////////////// */
+
+.automate-data-left{
+    z-index: 1;
+    width: 39.5%;
+    padding-right: 8px;
+    padding-left: 35px;
+}
+
+.automate-data-left img{
+    width: 100%;
+}
+
+
+/* ///////////////////////////////////////////// automate Data rigth side //////////////////////////////////// */
+
+
+.automate-data-right{
+    border-radius: 0 110px 110px 0;
+    z-index: 1;
+    background: white;
+    width: 60.4%;
+    padding: 70px;
+}
+
+
+.automate-data-right-head h4{
+    font-size: 24px;
+    color: #1343C7;
+    font-family: Aeonik-pro-bold;
+    text-transform: capitalize;
+}
+
+.automate-data-right-head h3{
+    font-size: 36px;
+    font-family: Aeonik-pro-bold;
+    text-transform: capitalize;
+}
+
+/* ///////////////////////////////////////////// automate Data rigth side body details //////////////////////////////////// */
+
+.automate-details{
+    width: 44%;
+    margin: 35px 0;
+}
+
+.automate-details-img {
+    width: 15%;
+} 
+
+.automate-details-head{
+    margin-bottom: 12px;
+}
+
+.automate-details-img img{
+    width: 100%;
+}
+
+.automate-details-head h4{
+    width: 80%;
+    font-size: 22px;
+    font-family: Aeonik-pro-bold;
+    margin-bottom: 0;
+    line-height: 26px;
+    font-weight: 800;
+}
+
+.automate-details-body p{
+    font-size: 18px;
+    font-family: Aeonik-pro-regular;
+    line-height: 36px;
+    font-weight: 500;
+}
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////// process section Section //////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.process-container.wrapper{
+    width: 89.4%;
+    margin-top: 150px;
+    margin-bottom: 130px;
+}
+
+/* ///////////////////////////////////////////// process section left side //////////////////////////////////// */
+.process-left{
+    width: 37%;
+}
+
+.process-left h4{
+    font-size: 40px;
+    font-family: Aeonik-pro-bold;
+    margin-bottom: 10px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+
+.process-left p{
+    font-size: 19px;
+    font-family: Aeonik-pro-regular;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 125px;
+}
+
+.services-img{
+    width: 91%
+}
+
+.services-img img{
+    width: 100%;
+}
+
+
+/* ///////////////////////////////////////////// process section right side //////////////////////////////////// */
+.process-right{
+    width: 56.4%;
+}
+
+.process{
+    border-radius: 15px;
+    margin-bottom: 40px;
+    width: 46.5%;
+    text-align: center;
+    padding: 36px 25px;
+    box-shadow: 0px 3px 49px 9px rgba(0, 0, 0, 0.10)
+}
+
+.process-img img{
+    width: 65%;
+}
+
+.process-img{
+    /* width: 15%; */
+    border: 15px solid rgba(0, 163, 255, 0.65);
+    border-radius: 50%;
+    width: 115px;
+    height: 115px;
+    margin-bottom: 30px;
+}
+
+.process h3{
+    font-size: 23.5px;
+    font-family: Aeonik-pro-bold;
+    line-height: 36px;
+    font-weight: 800;
+}
+
+.process p{
+    font-size: 18px;
+    font-family: Aeonik-pro-regular;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.process:nth-child(2n){
+    margin-right: 40px;
+}
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////// Features (why us) Section //////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+.features{
+    background: #2581F7;
+    position: relative;
+}
+
+.features::before{
+    content: "";
+    background: url('/assets/imgs/features-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    mix-blend-mode: hard-light;
+}
+
+
+.features-content.wrapper{
+    width: 88.1%;
+    padding-top: 106px;
+    padding-bottom: 90px;
+}
+
+
+/* ///////////////////////////////////////////// feature section left side //////////////////////////////////// */
+
+.features-left{
+    width: 47%;
+    z-index: 10;
+}
+
+.feature{
+    width: 48%;
+    background: white;
+    border-radius: 10px;
+    padding: 26px 39px;
+    min-height: 375px;
+    margin-bottom: 30px;
+}
+
+.feature-img{
+    width: 24%;
+    height: 20%;
+    margin-bottom: 25px;
+}
+
+.feature-img img{
+    width: 100%;
+}
+
+.feature h4{
+    font-family: Aeonik-pro-bold;
+    line-height: 36px;
+    font-weight: 900;
+    margin-bottom: 9px;
+    text-transform: capitalize;
+}
+
+.feature p{
+    font-family: Aeonik-pro-regular;
+    line-height: 34px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+
+
+/* ///////////////////////////////////////////// feature section right side //////////////////////////////////// */
+
+
+.features-right{
+    width: 48%;
+    margin-right: 50px;
+    z-index: 10;
+}
+
+.feature-right-upper{
+    min-height: 375px;
+    margin-bottom: 30px;
+    padding:115px 71px;
+    color: white;
+}
+
+.feature-right-upper h4{
+    font-size: 26px;
+    font-family: Aeonik-pro-regular;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.feature-right-upper h3{
+    font-size: 38px;
+    font-family: Aeonik-pro-bold;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+
+.features-right .feature{
+    height: 392px;
+}
+
+.features-right .feature:nth-child(2) .feature-img img{
+    width: 70%;
+}
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////// cloud storage Section //////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+.cloud-storage{
+    background: url('/assets/imgs/cloud-storage.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ///////////////////////////////////////////// cloud storage left side //////////////////////////////////// */
+
+.cloud-storage-left{
+    width: 40%;
+}
+
+.cloud-storage-img img{
+    width: 100%;
+}
+
+.cloud-storage-img{
+    width: 115%;
+    left: -67px;
+    top: -22px;
+}
+
+/* ///////////////////////////////////////////// cloud storage right side //////////////////////////////////// */
+
+.cloud-storage-right{
+    width: 47.5%;
+    padding-bottom: 255px;
+    padding-top: 212px;
+    /* margin: 230px 0; */
+    color: white;
+    margin-right: 190px;
+}
+
+.cloud-storage-right h3{
+    font-size: 50px;
+    font-family: Aeonik-pro-bold;
+    line-height: 70px;
+    margin-bottom: 23px;
+}
+
+.cloud-storage-right p{
+    font-size: 26px;
+    font-family: Aeonik-pro-regular;
+    line-height: 34px;
+    font-weight: 300;
+}
+
+.cloud-storage-doodle{
+    bottom: -117px;
+    right: -218px;
+    width: 38.5%;
+}
+
+
+.cloud-storage-doodle img{
+    width: 100%;
+}
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////// Resources Section //////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+.resources-container.wrapper{
+    width: 82.8%;
+    margin-top: 177px;
+    margin-bottom: 153px;
+}
+
+.resources-head h3{
+    text-align: center;
+    font-size: 40px;
+    font-family: Aeonik-pro-bold;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    margin-bottom: 55px;
+}
+
+.resources-content{
+    margin-right: 7.5px;
+}
+
+/* ///////////////////////////////////////////// resources card section //////////////////////////////////// */
+
+
+.resources-card{
+    width: 31.4%;
+}
+
+.resource-card-img img{
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+.resource-card-img{
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 47px;
+}
+
+.resource-card-detail h4{
+    font-size: 33px;
+    text-transform: capitalize;
+    font-family: Aeonik-pro-bold;
+    margin-bottom: 26px;
+    line-height: 36px;
+    color: #0D0D0D;
+}
+
+.resource-card-detail p{
+    font-size: 23px;
+    font-family: Aeonik-pro-regular;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 24px;
+    line-height: 32px;
+}
+
+.resource-card-detail p.details{
+    min-height: 96px;
+}
+
+.resources-card:nth-child(3) p.details{
+    min-height: 0;
+}
+
+.resource-card-detail p.hashtags{
+    margin-bottom: 27px;
+}
+
+.resource-card-detail p.hashtags span{
+    background: rgba(176, 176, 176, 0.15);
+    color: #1343C7;
+    padding: 9px 22px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.resource-owner-img{
+    width: 12%;
+}
+
+.resource-owner-img img{
+    width: 100%;
+}
+
+.resource-owner p{
+    font-size: 24px;
+    font-family: Aeonik-pro-bold;
+    font-weight: 9000;
+    margin-left: 15px;
+    margin-bottom: 0;
+}
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////// Talk to an Expert Section //////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.talk-expert{
+    background: url('/assets/imgs/talk-bg.png'), #0D0D0D;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.talk-expert{
+    text-align: center;
+    color: white;
+    padding: 55px;
+}
+
+
+.talk-expert h3{
+    font-size: 52px;
+    width: 40%;
+    /* text-transform: capitalize; */
+    font-family: Aeonik-pro-bold;
+    margin-bottom: 50px;
+}
+
+.talk-img img{
+    width: 100%;
+}
+
+.talk-img{
+    width: 18%;
+    left: 48%;
+    top: -55px;
+}
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////// testimonials Carousel Section //////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.testimonials.wrapper{
+    width: 66.8%;
+    margin-top: 130px;
+    padding-bottom: 100px;
+}
+
+.testimonials.wrapper h4{
+    font-size: 40px;
+    font-family: Aeonik-pro-bold;
+    text-transform: capitalize;
+    text-align: center;
+    margin-right: 114px;
+}
+
+.carousel-inner{
+    height: 470px;
+    margin-top: -56px;
+}
+
+.testimonial .testi-img{
+    border: 6px solid rgba(19, 67, 199, 1);
+    width: 27%;
+    border-radius: 40px; 
+    height: 386px;
+}
+
+.testi-img img{
+    width: 94%;
+    transform: translate(60px, 40px);
+}
+
+.testi-data{
+    width: 60%;
+    margin-top: 96px;
+}
+
+.testi-quote-img img{
+    width: 100%;
+}
+
+.testi-quote-img{
+    width: 7.7%;
+    margin-left: -36px;
+    margin-bottom: 38px;
+}
+
+.testi-data p{
+    font-size: 24px;
+    font-family: Aeonik-pro-regular;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 34px;
+    line-height: 40px;
+}
+
+.testi-data p.testi-name{
+    font-size: 27px;
+    font-family: Aeonik-pro-bold;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 12px;
+}
+
+.testi-data p.testi-company{
+    font-size: 20.5px;
+    font-family: Aeonik-pro-regular;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: #1343C7;
+    letter-spacing: 0.5px;
+}
+
+
+.prev-next-btn{
+    width: 13%;
+    top: 98px;
+    right: 56px;
+    z-index: 10;
+}
+
+
+.carousel-control-prev, .carousel-control-next{
+    position: relative !important;
+    width: 40% !important;
+    opacity: 0.15 !important;
+}
+
+.carousel-control-prev:focus, .carousel-control-prev:hover,
+.carousel-control-next:focus, .carousel-control-next:hover{
+    opacity: 1 !important;
+}
+
+.carousel-control-prev img, .carousel-control-next img{
+    width: 100%;
+}
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////// footer Section //////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.footer{
+    background-image: url("/assets/imgs/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 75px;
+    padding-bottom: 65px;
+}
+
+
+.footer-upper{
+    margin-bottom: 23px;
+}
+
+.footer-content.wrapper{
+    width: 91.5%;
+}
+
+.footer-content-left{
+    width: 10.8%;
+    color: white;
+}
+
+.footer .voyance-logo img{
+    width: 100%;
+}
+
+.footer .voyance-logo{
+    width: 100%;
+    margin-bottom: 45px;
+
+}
+
+.social-icons{
+    width: 60%;
+}
+
+.social-icons i{
+    font-size: 26px;
+}
+
+
+
+.footer-content-right{
+    width: 70.7%;
+    margin-top: 3px;
+}
+
+
+.footer .company,
+.footer .product, 
+.footer .legal, 
+.footer .support, 
+.footer .resources{
+    width: 19%;
+    color: white;
+} 
+
+.footer-content-right div h4{
+    font-family: Aeonik-pro-bold;
+    font-size: 22px;
+    margin-bottom: 33px;
+    font-weight: 700;
+
+}
+
+.footer-content-right div ul{
+    padding-left: 1px;
+}
+
+
+
+.footer-content-right div ul li{
+    font-family: Aeonik-pro-regular;
+    font-size: 18px;
+    font-weight: 100;
+    list-style: none;
+    margin-bottom: 22px;
+}
+
+
+.line{
+    width: 100%;
+    border: 1px solid white;
+}
+
+
+.footer-contact{
+    /* width: 70%; */
+}
+
+
+
+.footer-lower{
+    color: white;
+    width: 63.2%;
+}
+
+.footer-essential-link{
+    margin-left: 32px;
+    margin-top: 35px;
+    margin-bottom: 28px;
+    text-align: center;
+    
+}
+
+.footer-essential-link p span{
+    padding-left: 8px;
+    padding-right: 10px;
+    margin: 0;
+    display: inline-block;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.address,
+.call,
+.e-mail{
+    padding: 5px;
+}
+
+.address p,
+.call p,
+.e-mail p{
+    margin-bottom: 0;
+    margin-left: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 100;
+}
+
+.address i,
+.call i,
+.e-mail i{
+    font-size: 26px;
+}
+
+
+
+
+
+/* Aeonik-pro-bold, Aeonik-pro-regular, Aeonik-pro-light */

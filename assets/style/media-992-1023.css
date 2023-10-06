@@ -1,0 +1,625 @@
+@media (min-width: 992px) and (max-width: 1023px) {
+  .wrapper {
+    width: 92%;
+  }
+
+  a.btn {
+    padding: 10px 18px;
+    margin: 5px 0;
+    font-size: 14px;
+  }
+
+  a.blueBtn{
+    margin-left: 7px;
+  }
+
+  /* //////////////////////////////////////////////////////////////////////////////////////////////// */
+  /* ///////////////////////////////////////////// Desktop Navigation //////////////////////////////////// */
+  /* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+  /* ///////////////////////////////////////////// Desktop Navigation Logo //////////////////////////////////// */
+
+  .voyance-logo {
+    width: 18%;
+  }
+
+  .voyance-logo img {
+    width: 100%;
+  }
+
+  .desktop-nav-container.wrapper {
+    width: 92%;
+    height: 90px;
+  }
+
+  .main-nav {
+    width: 50%;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .main-nav ul {
+    padding: 0;
+  }
+
+  .main-nav ul li {
+    font-size: 16px;
+  }
+
+  .login-signup {
+    width: 25%;
+  }
+
+  .navigation.active .desktop-nav-container.wrapper {
+    height: 70px;
+  }
+
+  /* //////////////////////////////////////////////////////////////////////////////////////////////// */
+  /* ///////////////////////////////////////////// hero Section //////////////////////////////////// */
+  /* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+  /* ///////////////////////////////////////////// hero section //////////////////////////////////// */
+
+  .hero-section-content.wrapper {
+    width: 100%;
+    padding: 0 45px;
+    padding-bottom: 70px;
+    padding-top: 100px;
+  }
+
+  .hero-section-left {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    width: 50% !important;
+  }
+
+  .hero-section-heading h2 {
+    font-size: 38px;
+    line-height: 60px;
+    margin-bottom: 15px;
+    /* margin-top: 50px; */
+  }
+
+  .hero-section-heading .hero-heading-img {
+    top: 34%;
+    width: 195px;
+  }
+
+  .hero-section-heading .hero-heading-img img {
+    width: 100%;
+  }
+
+  .hero-section-left p {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+
+  .hero-section-right {
+    /* display: none; */
+    width: 50%;
+    height: 500px;
+  }
+
+  .scifi-planet-up{
+    width: 50%;
+    right: -20px;
+  }
+
+  .scifi-planet-up img{
+    width: 100%;
+  }
+
+  .scifi-img{
+    width: 100%;
+    left: 0;
+    top: 120px;
+  }
+
+  .scifi-img img{
+    width: 100%;
+  }
+
+  /* ///////////////////////////////////////////// hero section bottom //////////////////////////////////// */
+
+  .hero-section-bottom {
+    width: 96%;
+  }
+
+  .hero-section-bottom .trusted-by p {
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: 400;
+  }
+
+  .hero-section-bottom .trusted-by div {
+    width: 25%;
+  }
+
+  .trusted-by-companies .companies {
+    width: 96%;
+    padding: 10px;
+  }
+
+  .companies .company {
+    width: 25% !important;
+    margin: 8px 0;
+  }
+
+  .companies .company:nth-child(1) img {
+    width: 35%;
+  }
+
+  .companies .company:nth-child(2) img {
+    width: 70%;
+  }
+
+  .companies .company:nth-child(3) img {
+    width: 55%;
+  }
+
+  .companies .company:nth-child(4) img {
+    width: 42%;
+  }
+
+  .hero-section-bottom .scifi-down {
+    top: -42px;
+    left: -63px;
+  }
+
+  /* //////////////////////////////////////////////////////////////////////////////////////////////// */
+  /* ///////////////////////////////////////////// Data transfiguration Section //////////////////////////////////// */
+  /* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+  /* ///////////////////////////////////////////// Data transfuration section //////////////////////////////////// */
+
+  .data-transform-left,
+  .data-transform-right {
+    width: 50%;
+  }
+
+  .data-transform-right h3 {
+    font-size: 35px;
+    margin-bottom: 12px;
+  }
+
+  .data-transform-right p {
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  .data-transform-left {
+    background: none;
+  }
+
+  .data-transform-video {
+    width: 90%;
+    top: 50px;
+  }
+
+  .video-play-btn i {
+    font-size: 90px;
+  }
+
+  /* Aeonik-pro-bold, Aeonik-pro-regular, Aeonik-pro-light */
+
+  /* //////////////////////////////////////////////////////////////////////////////////////////////// */
+  /* ///////////////////////////////////////////// Automate Data Section //////////////////////////////////// */
+  /* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+  .automate-data-wrapper {
+    width: 92%;
+    padding-top: 130px;
+    padding-bottom: 130px;
+  }
+
+  .automate-data-content {
+    border-radius: 90px;
+  }
+
+  .automate-data-content::before {
+    border-radius: 90px;
+  }
+
+  .automate-data-right {
+    width: 65%;
+    padding: 30px 20px;
+    border-radius: 0 90px 90px 0;
+  }
+
+  .automate-data-left {
+    width: 35%;
+  }
+
+  .automate-data-right-head h4 {
+    font-size: 18px;
+  }
+
+  .automate-data-right-head h3 {
+    font-size: 24px;
+    margin-bottom: 14px;
+  }
+
+  .automate-details {
+    width: 47%;
+    margin: 14px 0;
+  }
+
+  .automate-details-img {
+    width: 15%;
+  }
+
+  .automate-details-head h4 {
+    width: 80%;
+  }
+
+  /* //////////////////////////////////////////////////////////////////////////////////////////////// */
+  /* ///////////////////////////////////////////// Automate Data Section //////////////////////////////////// */
+  /* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+  .process-container.wrapper {
+    width: 92%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+
+  .process-left {
+    width: 38%;
+  }
+
+  .process-left h4 {
+    font-size: 26px;
+  }
+
+  .process-left p {
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+
+  .services-img {
+    width: 90%;
+  }
+
+  .process-right {
+    width: 60%;
+  }
+
+  .process {
+    width: 47%;
+    padding: 20px 15px;
+    margin-bottom: 20px;
+  }
+
+  .process-img {
+    /* width: 10%; */
+    border: 5px solid rgba(0, 163, 255, 0.65);
+    width: 80px;
+    height: 80px;
+  }
+
+  .process h3 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .process p {
+    font-size: 16px;
+  }
+
+  .process:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  /* //////////////////////////////////////////////////////////////////////////////////////////////// */
+  /* ///////////////////////////////////////////// Features (why us) Section //////////////////////////////////// */
+  /* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+  .features-content.wrapper {
+    width: 92%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .features-left {
+    width: 48%;
+  }
+
+  .features-right {
+    width: 48%;
+    margin-right: 15px;
+  }
+
+  .feature-right-upper {
+    /* height: auto; */
+    padding: 35px;
+    margin-bottom: 20px;
+    min-height: 300px;
+  }
+
+  .feature-right-upper h4 {
+    font-size: 20px;
+  }
+
+  .feature-right-upper h3 {
+    font-size: 32px;
+  }
+
+  .feature-img {
+    width: 30%;
+    height: 24%;
+  }
+
+  .feature h4 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .features-right .feature,
+  .features-left .feature {
+    padding: 15px 25px;
+    width: 48%;
+    min-height: 290px;
+    height: auto;
+  }
+
+  .feature p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  /* //////////////////////////////////////////////////////////////////////////////////////////////// */
+  /* ///////////////////////////////////////////// cloud storage Section //////////////////////////////////// */
+  /* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+  .cloud-storage-left {
+    width: 100%;
+    height: 390px;
+  }
+
+  .cloud-storage-img {
+    width: 100%;
+    top: -14px;
+    left: 0;
+  }
+
+  .cloud-storage-right {
+    width: 100%;
+    margin-right: 0;
+    padding-top: 60px;
+    padding-bottom: 0;
+  }
+
+  .cloud-storage-right h3 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+
+  .cloud-storage-right p {
+    font-size: 20px;
+  }
+
+  .cloud-storage-doodle {
+    bottom: -88px;
+    right: 0px;
+  }
+
+  /* //////////////////////////////////////////////////////////////////////////////////////////////// */
+  /* ///////////////////////////////////////////// Resources Section //////////////////////////////////// */
+  /* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+  .resources-container.wrapper {
+    width: 92%;
+    margin-top: 80px;
+    margin-bottom: 60px;
+  }
+
+  .resources-head h3 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  .resources-card {
+    width: 32%;
+    margin: 30px 0;
+  }
+
+  .resource-card-img {
+    margin-bottom: 20px;
+  }
+
+  .resource-card-detail h4 {
+    font-size: 22px;
+    line-height: 30px;
+    min-height: 90px;
+  }
+
+  .resource-card-detail p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .resource-card-detail p.details {
+    min-height: 85px;
+  }
+
+  .resource-card-detail p.hashtags {
+    margin-bottom: 17px;
+    min-height: 90px;
+
+  }
+
+  .resource-card-detail p.hashtags span {
+    padding: 5px 14px;
+  }
+
+  .resource-owner-img {
+    width: 18%;
+  }
+
+  /* //////////////////////////////////////////////////////////////////////////////////////////////// */
+  /* ///////////////////////////////////////////// Talk to an Expert Section //////////////////////////////////// */
+  /* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+  .talk-expert {
+    padding: 20px;
+  }
+
+  .talk-expert h3 {
+    font-size: 30px;
+    width: 40%;
+    margin-bottom: 30px;
+  }
+
+  .talk-img {
+    width: 21%;
+    left: 48%;
+    top: -40px;
+  }
+
+  /* //////////////////////////////////////////////////////////////////////////////////////////////// */
+  /* ///////////////////////////////////////////// testimonials Carousel Section //////////////////////////////////// */
+  /* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+  .testimonials.wrapper {
+    width: 92%;
+    margin-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .testimonials.wrapper h4 {
+    font-size: 30px;
+    text-align: center;
+    margin-right: 60px;
+  }
+
+  .carousel-inner {
+    height: 360px;
+    margin-top: -36px;
+  }
+
+  .testimonial .testi-img {
+    width: 30%;
+    height: 310px;
+    border-radius: 20px;
+    /* padding-right: 30px; */
+  }
+
+  .testi-img img {
+    width: 93%;
+    transform: translate(40px, 30px);
+  }
+
+  .testi-data {
+    width: 61%;
+    margin-top: 60px;
+  }
+
+  .testi-quote-img {
+    width: 8%;
+    margin-left: -20px;
+    margin-bottom: 20px;
+  }
+
+  .testi-data p {
+    font-size: 16px;
+    margin-bottom: 24px;
+    line-height: 20px;
+  }
+
+  .testi-data p.testi-name {
+    font-size: 18px;
+  }
+
+  .testi-data p.testi-company {
+    font-size: 18px;
+  }
+
+  .prev-next-btn {
+    width: 15%;
+    right: 35px;
+    top: 58px;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 40% !important;
+  }
+
+  /* //////////////////////////////////////////////////////////////////////////////////////////////// */
+  /* ///////////////////////////////////////////// footer Section //////////////////////////////////// */
+  /* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+  .footer-content.wrapper {
+    width: 92%;
+  }
+
+  .footer-content-left {
+    width: 20%;
+    margin-bottom: 30px;
+  }
+
+  .footer .voyance-logo {
+    margin-bottom: 20px;
+  }
+
+  .social-icons {
+    width: 60%;
+  }
+
+  .social-icons i {
+    font-size: 16px;
+  }
+
+  .footer-content-right {
+    width: 70%;
+    /* margin-left: 40px; */
+  }
+
+  .footer .company,
+  .footer .product,
+  .footer .legal,
+  .footer .support,
+  .footer .resources {
+    width: 20%;
+  }
+
+  .footer-content-right div h4 {
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+
+  .footer-content-right div ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .footer-lower {
+    width: 75%;
+  }
+
+  .footer-essential-link p span {
+    padding-left: 5px;
+    padding-right: 6px;
+    font-size: 16px;
+  }
+
+  .address,
+  .call,
+  .e-mail {
+    padding: 10px 5px;
+  }
+
+  .address p,
+  .call p,
+  .e-mail p {
+    margin-left: 15px;
+    font-size: 14px;
+  }
+
+  .address i,
+  .call i,
+  .e-mail i {
+    font-size: 20px;
+  }
+}
